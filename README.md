@@ -14,8 +14,9 @@ Mira **Deployment** para conocer como desplegar el proyecto.
 _Que cosas necesitas para instalar el software y como instalarlas_
 
 ```
-[Node JS](https://nodejs.org/)
+Node JS
 ```
+https://nodejs.org/
 
 ### Instalación 🔧
 
