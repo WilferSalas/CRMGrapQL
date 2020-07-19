@@ -1,6 +1,6 @@
-# Título del Proyecto
+# Back-end CRM Clientes con GraphQL
 
-_Acá va un párrafo que describa lo que es el proyecto_
+_Back-end del CRM Clientes hecho con GraphQL, Apollo y Mongo DB_
 
 ## Comenzando 🚀
 
@@ -14,50 +14,34 @@ Mira **Deployment** para conocer como desplegar el proyecto.
 _Que cosas necesitas para instalar el software y como instalarlas_
 
 ```
-Da un ejemplo
+Node JS
 ```
 
 ### Instalación 🔧
 
 _Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
 
-_Dí cómo será ese paso_
-
 ```
-Da un ejemplo
+npm install
 ```
 
-_Y repite_
-
 ```
-hasta finalizar
+npm run dev
 ```
 
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
-
-## Ejecutando las pruebas ⚙️
-
-_Explica como ejecutar las pruebas automatizadas para este sistema_
-
-### Analice las pruebas end-to-end 🔩
-
-_Explica que verifican estas pruebas y por qué_
+_Ejemplo de consulta con GrapQL a los datos de mejores clientes_
 
 ```
-Da un ejemplo
+query mejoresClientes {
+  mejoresClientes {
+    total
+    cliente {
+      nombre
+      apellido
+    }
+  }
+}
 ```
-
-### Y las pruebas de estilo de codificación ⌨️
-
-_Explica que verifican estas pruebas y por qué_
-
-```
-Da un ejemplo
-```
-
-## Despliegue 📦
-
-_Agrega notas adicionales sobre como hacer deploy_
 
 ## Construido con 🛠️
 
@@ -83,14 +67,7 @@ Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones
 
 _Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
 
-* **Andrés Villanueva** - *Trabajo Inicial* - [villanuevand](https://github.com/villanuevand)
-* **Fulanito Detal** - *Documentación* - [fulanitodetal](#fulanito-de-tal)
-
-También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
-
-## Licencia 📄
-
-Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
+* **Wilfer Salas** - [WilferSalas](https://github.com/WilferSalas)
 
 ## Expresiones de Gratitud 🎁
 
@@ -102,4 +79,4 @@ Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md
 
 
 ---
-⌨️ con ❤️ por [Villanuevand](https://github.com/Villanuevand) 😊
+⌨️ con ❤️ por [WilferSalas](https://github.com/WilferSalas) 😊
