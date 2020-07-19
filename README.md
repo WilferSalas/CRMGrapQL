@@ -14,7 +14,7 @@ Mira **Deployment** para conocer como desplegar el proyecto.
 _Que cosas necesitas para instalar el software y como instalarlas_
 
 ```
-Node JS
+[Node JS](https://nodejs.org/)
 ```
 
 ### Instalación 🔧
@@ -49,15 +49,11 @@ query mejoresClientes {
 
 ## Construido con 🛠️
 
-_Menciona las herramientas que utilizaste para crear tu proyecto_
-
 * [GraphQL](https://graphql.org/) - El lenguaje de manipulación y consulta
 * [Apollo Cliente](https://www.apollographql.com/) - Biblioteca integral de administración de estado 
 * [Mongo DB](https://www.mongodb.com/) - Base de datos NoSQL
 
 ## Autores ✒️
-
-_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
 
 * **Wilfer Salas** - [WilferSalas](https://github.com/WilferSalas)
 
